@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Terminal Colours</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            .col {
+                display: flex;
+                flex-direction: column;
+                margin: 1%;
+            }
+            .row {
+                display: flex;
+                flex-direction: row;
+                margin: 1%;
+            }
+            #main {
+                border: 2px dashed black;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .border-botttom {
+                border-bottom: 2px dashed black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="col" id="main">
+            <div class="col border-botttom">
+                <h1>Terminal Colours</h1>
+            </div>
+            <div class="col border-botttom">
+                <h2>Background</h2>
+                <p>Background Colour: RGB 40, 40, 40 : HEX #282828</p>
+            </div>
+            <div class="col">
+                <h2>Foreground</h2>
+                <div class="col">
+                    <h3>Amber</h3>
+                    <p>Amber Colour: RGB 255, 176, 0 : HEX #FFB000</p>
+                    <p>Light Amber Colour: RGB 255, 204, 0 : HEX #FFCC00</p>
+                </div>
+                <div class="col">
+                    <h3>Green</h3>
+                    <p>Green 1 Colour: RGB 51, 255, 0 : HEX #33FF00</p>
+                    <p>Green 2 Colour: RGB 51, 255, 51 : HEX #33FF33</p>
+                    <p>Green 3 Colour: RGB 0, 255, 102 : HEX #00FF66</p>
+                    <p>Apple II Colour: RGB 0, 255, 51 : HEX #00FF33</p>
+                    <p>Apple IIc Colour: RGB 102, 255, 102 : HEX #66FF66</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
